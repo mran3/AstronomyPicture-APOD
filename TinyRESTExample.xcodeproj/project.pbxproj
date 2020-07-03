@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CBB69AC248CA48B00D022E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AB248CA48B00D022E4 /* AppDelegate.swift */; };
+		0CBB69AE248CA48B00D022E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AD248CA48B00D022E4 /* SceneDelegate.swift */; };
+		0CBB69B0248CA48B00D022E4 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AF248CA48B00D022E4 /* PostsView.swift */; };
+		0CBB69B2248CA48F00D022E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB69B1248CA48F00D022E4 /* Assets.xcassets */; };
+		0CBB69B5248CA48F00D022E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB69B4248CA48F00D022E4 /* Preview Assets.xcassets */; };
+		0CBB69B8248CA48F00D022E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB69B6248CA48F00D022E4 /* LaunchScreen.storyboard */; };
+		0CBB69C7248CB3B500D022E4 /* TinyNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 0CBB69C6248CB3B500D022E4 /* TinyNetworking */; };
+		0CBB69CB248CB43400D022E4 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69CA248CB43400D022E4 /* PostViewModel.swift */; };
+		0CBB69CE248CB5BB00D022E4 /* TinyNetworkingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69CD248CB5BB00D022E4 /* TinyNetworkingConfig.swift */; };
+		0CBB69D1248CC6C800D022E4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69D0248CC6C800D022E4 /* PostModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyRESTExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBB69AB248CA48B00D022E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CBB69AD248CA48B00D022E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CBB69AF248CA48B00D022E4 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		0CBB69B1248CA48F00D022E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CBB69B4248CA48F00D022E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CBB69B7248CA48F00D022E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CBB69B9248CA48F00D022E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBB69CA248CB43400D022E4 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		0CBB69CD248CB5BB00D022E4 /* TinyNetworkingConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkingConfig.swift; sourceTree = "<group>"; };
+		0CBB69D0248CC6C800D022E4 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		0CBB69D2248CCD8000D022E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CBB69A5248CA48B00D022E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBB69C7248CB3B500D022E4 /* TinyNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBB699F248CA48B00D022E4 = {
+			isa = PBXGroup;
+			children = (
+				0CBB69AA248CA48B00D022E4 /* TinyRESTExample */,
+				0CBB69A9248CA48B00D022E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CBB69A9248CA48B00D022E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CBB69AA248CA48B00D022E4 /* TinyRESTExample */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69CC248CB59300D022E4 /* Shared */,
+				0CBB69C8248CB40200D022E4 /* Scenes */,
+				0CBB69AB248CA48B00D022E4 /* AppDelegate.swift */,
+				0CBB69AD248CA48B00D022E4 /* SceneDelegate.swift */,
+				0CBB69B1248CA48F00D022E4 /* Assets.xcassets */,
+				0CBB69B6248CA48F00D022E4 /* LaunchScreen.storyboard */,
+				0CBB69B9248CA48F00D022E4 /* Info.plist */,
+				0CBB69B3248CA48F00D022E4 /* Preview Content */,
+				0CBB69D2248CCD8000D022E4 /* README.md */,
+			);
+			path = TinyRESTExample;
+			sourceTree = "<group>";
+		};
+		0CBB69B3248CA48F00D022E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69B4248CA48F00D022E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CBB69C8248CB40200D022E4 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69C9248CB40B00D022E4 /* Posts */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0CBB69C9248CB40B00D022E4 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69D0248CC6C800D022E4 /* PostModel.swift */,
+				0CBB69AF248CA48B00D022E4 /* PostsView.swift */,
+				0CBB69CA248CB43400D022E4 /* PostViewModel.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		0CBB69CC248CB59300D022E4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69CD248CB5BB00D022E4 /* TinyNetworkingConfig.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CBB69A7248CA48B00D022E4 /* TinyRESTExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CBB69BC248CA48F00D022E4 /* Build configuration list for PBXNativeTarget "TinyRESTExample" */;
+			buildPhases = (
+				0CBB69A4248CA48B00D022E4 /* Sources */,
+				0CBB69A5248CA48B00D022E4 /* Frameworks */,
+				0CBB69A6248CA48B00D022E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyRESTExample;
+			packageProductDependencies = (
+				0CBB69C6248CB3B500D022E4 /* TinyNetworking */,
+			);
+			productName = TinyRESTExample;
+			productReference = 0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CBB69A0248CA48B00D022E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = zourz;
+				TargetAttributes = {
+					0CBB69A7248CA48B00D022E4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0CBB69A3248CA48B00D022E4 /* Build configuration list for PBXProject "TinyRESTExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CBB699F248CA48B00D022E4;
+			packageReferences = (
+				0CBB69C5248CB3B500D022E4 /* XCRemoteSwiftPackageReference "TinyNetworking" */,
+			);
+			productRefGroup = 0CBB69A9248CA48B00D022E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CBB69A7248CA48B00D022E4 /* TinyRESTExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CBB69A6248CA48B00D022E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBB69B8248CA48F00D022E4 /* LaunchScreen.storyboard in Resources */,
+				0CBB69B5248CA48F00D022E4 /* Preview Assets.xcassets in Resources */,
+				0CBB69B2248CA48F00D022E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CBB69A4248CA48B00D022E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBB69CE248CB5BB00D022E4 /* TinyNetworkingConfig.swift in Sources */,
+				0CBB69CB248CB43400D022E4 /* PostViewModel.swift in Sources */,
+				0CBB69AC248CA48B00D022E4 /* AppDelegate.swift in Sources */,
+				0CBB69D1248CC6C800D022E4 /* PostModel.swift in Sources */,
+				0CBB69AE248CA48B00D022E4 /* SceneDelegate.swift in Sources */,
+				0CBB69B0248CA48B00D022E4 /* PostsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CBB69B6248CA48F00D022E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CBB69B7248CA48F00D022E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CBB69BA248CA48F00D022E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CBB69BB248CA48F00D022E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CBB69BD248CA48F00D022E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyRESTExample/Preview Content\"";
+				DEVELOPMENT_TEAM = VAL6A7M5FF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyRESTExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zourz.TinyRESTExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CBB69BE248CA48F00D022E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TinyRESTExample/Preview Content\"";
+				DEVELOPMENT_TEAM = VAL6A7M5FF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TinyRESTExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zourz.TinyRESTExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CBB69A3248CA48B00D022E4 /* Build configuration list for PBXProject "TinyRESTExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBB69BA248CA48F00D022E4 /* Debug */,
+				0CBB69BB248CA48F00D022E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CBB69BC248CA48F00D022E4 /* Build configuration list for PBXNativeTarget "TinyRESTExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBB69BD248CA48F00D022E4 /* Debug */,
+				0CBB69BE248CA48F00D022E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CBB69C5248CB3B500D022E4 /* XCRemoteSwiftPackageReference "TinyNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdisho/TinyNetworking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0CBB69C6248CB3B500D022E4 /* TinyNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CBB69C5248CB3B500D022E4 /* XCRemoteSwiftPackageReference "TinyNetworking" */;
+			productName = TinyNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0CBB69A0248CA48B00D022E4 /* Project object */;
+}
