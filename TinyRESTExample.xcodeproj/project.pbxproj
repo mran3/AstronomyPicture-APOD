@@ -7,30 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CAED26224B05C46002E0121 /* POTDDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAED26124B05C46002E0121 /* POTDDetailView.swift */; };
+		0CAED26524B05F76002E0121 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0CAED26424B05F76002E0121 /* URLImage */; };
 		0CBB69AC248CA48B00D022E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AB248CA48B00D022E4 /* AppDelegate.swift */; };
 		0CBB69AE248CA48B00D022E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AD248CA48B00D022E4 /* SceneDelegate.swift */; };
-		0CBB69B0248CA48B00D022E4 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AF248CA48B00D022E4 /* PostsView.swift */; };
+		0CBB69B0248CA48B00D022E4 /* POTDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69AF248CA48B00D022E4 /* POTDView.swift */; };
 		0CBB69B2248CA48F00D022E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB69B1248CA48F00D022E4 /* Assets.xcassets */; };
 		0CBB69B5248CA48F00D022E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB69B4248CA48F00D022E4 /* Preview Assets.xcassets */; };
 		0CBB69B8248CA48F00D022E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB69B6248CA48F00D022E4 /* LaunchScreen.storyboard */; };
 		0CBB69C7248CB3B500D022E4 /* TinyNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = 0CBB69C6248CB3B500D022E4 /* TinyNetworking */; };
-		0CBB69CB248CB43400D022E4 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69CA248CB43400D022E4 /* PostViewModel.swift */; };
+		0CBB69CB248CB43400D022E4 /* POTDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69CA248CB43400D022E4 /* POTDViewModel.swift */; };
 		0CBB69CE248CB5BB00D022E4 /* TinyNetworkingConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69CD248CB5BB00D022E4 /* TinyNetworkingConfig.swift */; };
-		0CBB69D1248CC6C800D022E4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69D0248CC6C800D022E4 /* PostModel.swift */; };
+		0CBB69D1248CC6C800D022E4 /* POTDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBB69D0248CC6C800D022E4 /* POTDModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CAED26124B05C46002E0121 /* POTDDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTDDetailView.swift; sourceTree = "<group>"; };
 		0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyRESTExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBB69AB248CA48B00D022E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBB69AD248CA48B00D022E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CBB69AF248CA48B00D022E4 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		0CBB69AF248CA48B00D022E4 /* POTDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTDView.swift; sourceTree = "<group>"; };
 		0CBB69B1248CA48F00D022E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBB69B4248CA48F00D022E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CBB69B7248CA48F00D022E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBB69B9248CA48F00D022E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CBB69CA248CB43400D022E4 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		0CBB69CA248CB43400D022E4 /* POTDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTDViewModel.swift; sourceTree = "<group>"; };
 		0CBB69CD248CB5BB00D022E4 /* TinyNetworkingConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkingConfig.swift; sourceTree = "<group>"; };
-		0CBB69D0248CC6C800D022E4 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		0CBB69D0248CC6C800D022E4 /* POTDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTDModel.swift; sourceTree = "<group>"; };
 		0CBB69D2248CCD8000D022E4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAED26524B05F76002E0121 /* URLImage in Frameworks */,
 				0CBB69C7248CB3B500D022E4 /* TinyNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +50,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CAED25F24AFF5DD002E0121 /* PictureOfTheDay */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB69D0248CC6C800D022E4 /* POTDModel.swift */,
+				0CBB69AF248CA48B00D022E4 /* POTDView.swift */,
+				0CBB69CA248CB43400D022E4 /* POTDViewModel.swift */,
+			);
+			path = PictureOfTheDay;
+			sourceTree = "<group>";
+		};
+		0CAED26024B05B0E002E0121 /* PictureOfTheDayDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0CAED26124B05C46002E0121 /* POTDDetailView.swift */,
+			);
+			path = PictureOfTheDayDetail;
+			sourceTree = "<group>";
+		};
 		0CBB699F248CA48B00D022E4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,19 +111,10 @@
 		0CBB69C8248CB40200D022E4 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				0CBB69C9248CB40B00D022E4 /* Posts */,
+				0CAED26024B05B0E002E0121 /* PictureOfTheDayDetail */,
+				0CAED25F24AFF5DD002E0121 /* PictureOfTheDay */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		0CBB69C9248CB40B00D022E4 /* Posts */ = {
-			isa = PBXGroup;
-			children = (
-				0CBB69D0248CC6C800D022E4 /* PostModel.swift */,
-				0CBB69AF248CA48B00D022E4 /* PostsView.swift */,
-				0CBB69CA248CB43400D022E4 /* PostViewModel.swift */,
-			);
-			path = Posts;
 			sourceTree = "<group>";
 		};
 		0CBB69CC248CB59300D022E4 /* Shared */ = {
@@ -130,6 +143,7 @@
 			name = TinyRESTExample;
 			packageProductDependencies = (
 				0CBB69C6248CB3B500D022E4 /* TinyNetworking */,
+				0CAED26424B05F76002E0121 /* URLImage */,
 			);
 			productName = TinyRESTExample;
 			productReference = 0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */;
@@ -161,6 +175,7 @@
 			mainGroup = 0CBB699F248CA48B00D022E4;
 			packageReferences = (
 				0CBB69C5248CB3B500D022E4 /* XCRemoteSwiftPackageReference "TinyNetworking" */,
+				0CAED26324B05F76002E0121 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 0CBB69A9248CA48B00D022E4 /* Products */;
 			projectDirPath = "";
@@ -190,11 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CBB69CE248CB5BB00D022E4 /* TinyNetworkingConfig.swift in Sources */,
-				0CBB69CB248CB43400D022E4 /* PostViewModel.swift in Sources */,
+				0CBB69CB248CB43400D022E4 /* POTDViewModel.swift in Sources */,
+				0CAED26224B05C46002E0121 /* POTDDetailView.swift in Sources */,
 				0CBB69AC248CA48B00D022E4 /* AppDelegate.swift in Sources */,
-				0CBB69D1248CC6C800D022E4 /* PostModel.swift in Sources */,
+				0CBB69D1248CC6C800D022E4 /* POTDModel.swift in Sources */,
 				0CBB69AE248CA48B00D022E4 /* SceneDelegate.swift in Sources */,
-				0CBB69B0248CA48B00D022E4 /* PostsView.swift in Sources */,
+				0CBB69B0248CA48B00D022E4 /* POTDView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +406,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0CAED26324B05F76002E0121 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.18;
+			};
+		};
 		0CBB69C5248CB3B500D022E4 /* XCRemoteSwiftPackageReference "TinyNetworking" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jdisho/TinyNetworking";
@@ -401,6 +425,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0CAED26424B05F76002E0121 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CAED26324B05F76002E0121 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
 		0CBB69C6248CB3B500D022E4 /* TinyNetworking */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0CBB69C5248CB3B500D022E4 /* XCRemoteSwiftPackageReference "TinyNetworking" */;

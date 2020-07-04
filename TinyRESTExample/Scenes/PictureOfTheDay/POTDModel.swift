@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct Post: Codable, Identifiable  {
-    var userId: Int
-    var id: Int
+struct POTD: Codable {
+    var copyright: String?
+    var date: String?
+    var explanation: String?
+    var url: String?
     var title: String?
-    var body: String?
 }
