@@ -24,7 +24,6 @@
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="J37-kd-d4h" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Aj4-a7-f28"/>
                             <constraint firstItem="J37-kd-d4h" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="40" id="Ift-4W-ye7"/>
                             <constraint firstAttribute="trailing" secondItem="J37-kd-d4h" secondAttribute="trailing" constant="40" id="S1A-FF-KA3"/>
                             <constraint firstItem="J37-kd-d4h" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tEU-eV-SxD"/>

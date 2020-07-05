@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		0CAED26124B05C46002E0121 /* POTDDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTDDetailView.swift; sourceTree = "<group>"; };
-		0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyRESTExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CBB69A8248CA48B00D022E4 /* Picture of the Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picture of the Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBB69AB248CA48B00D022E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBB69AD248CA48B00D022E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0CBB69AF248CA48B00D022E4 /* POTDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POTDView.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		0CBB69A9248CA48B00D022E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */,
+				0CBB69A8248CA48B00D022E4 /* Picture of the Day.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CBB69A7248CA48B00D022E4 /* TinyRESTExample */ = {
+		0CBB69A7248CA48B00D022E4 /* Picture of the Day */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CBB69BC248CA48F00D022E4 /* Build configuration list for PBXNativeTarget "TinyRESTExample" */;
+			buildConfigurationList = 0CBB69BC248CA48F00D022E4 /* Build configuration list for PBXNativeTarget "Picture of the Day" */;
 			buildPhases = (
 				0CBB69A4248CA48B00D022E4 /* Sources */,
 				0CBB69A5248CA48B00D022E4 /* Frameworks */,
@@ -140,13 +140,13 @@
 			);
 			dependencies = (
 			);
-			name = TinyRESTExample;
+			name = "Picture of the Day";
 			packageProductDependencies = (
 				0CBB69C6248CB3B500D022E4 /* TinyNetworking */,
 				0CAED26424B05F76002E0121 /* URLImage */,
 			);
 			productName = TinyRESTExample;
-			productReference = 0CBB69A8248CA48B00D022E4 /* TinyRESTExample.app */;
+			productReference = 0CBB69A8248CA48B00D022E4 /* Picture of the Day.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CBB69A3248CA48B00D022E4 /* Build configuration list for PBXProject "TinyRESTExample" */;
+			buildConfigurationList = 0CBB69A3248CA48B00D022E4 /* Build configuration list for PBXProject "Picture of the Day" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CBB69A7248CA48B00D022E4 /* TinyRESTExample */,
+				0CBB69A7248CA48B00D022E4 /* Picture of the Day */,
 			);
 		};
 /* End PBXProject section */
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CBB69A3248CA48B00D022E4 /* Build configuration list for PBXProject "TinyRESTExample" */ = {
+		0CBB69A3248CA48B00D022E4 /* Build configuration list for PBXProject "Picture of the Day" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CBB69BA248CA48F00D022E4 /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CBB69BC248CA48F00D022E4 /* Build configuration list for PBXNativeTarget "TinyRESTExample" */ = {
+		0CBB69BC248CA48F00D022E4 /* Build configuration list for PBXNativeTarget "Picture of the Day" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CBB69BD248CA48F00D022E4 /* Debug */,
