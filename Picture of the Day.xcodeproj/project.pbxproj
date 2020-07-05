@@ -71,6 +71,7 @@
 		0CBB699F248CA48B00D022E4 = {
 			isa = PBXGroup;
 			children = (
+				0CBB69D2248CCD8000D022E4 /* README.md */,
 				0CBB69AA248CA48B00D022E4 /* TinyRESTExample */,
 				0CBB69A9248CA48B00D022E4 /* Products */,
 			);
@@ -95,7 +96,6 @@
 				0CBB69B6248CA48F00D022E4 /* LaunchScreen.storyboard */,
 				0CBB69B9248CA48F00D022E4 /* Info.plist */,
 				0CBB69B3248CA48F00D022E4 /* Preview Content */,
-				0CBB69D2248CCD8000D022E4 /* README.md */,
 			);
 			path = TinyRESTExample;
 			sourceTree = "<group>";
