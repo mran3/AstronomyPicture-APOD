@@ -19,7 +19,8 @@ class POTDViewModel: ObservableObject {
     
     func getPictures(){
         let tinyNetworking = TinyNetworking<NasaAPI>()
-        let resource: NasaAPI = .POTDs(startDate: "2020-07-02", endDate: "2020-07-04")
+        let dates = getDates()
+        let resource: NasaAPI = .POTDs(startDate: dates.1, endDate: dates.0)
         
         tinyNetworking.request(resource: resource) { result in
             switch result {
@@ -31,6 +32,22 @@ class POTDViewModel: ObservableObject {
                 print(error)
             }
         }
+    }
+    
+    func getDates() -> (String, String) {
+        let today = Date()
+        let format = DateFormatter()
+        format.dateFormat = "yyyy-MM-dd"
+        let formattedDate = format.string(from: today)
+        
+        let lastWeekDate = Calendar.current.date(byAdding: .weekOfYear, value: -1, to: today)!
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let lastWeekDateString = dateFormatter.string(from: lastWeekDate)
+        
+        return (formattedDate, lastWeekDateString)
+        
     }
     
 }
